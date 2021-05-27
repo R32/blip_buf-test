@@ -1,0 +1,6 @@
+*.swf
+*.o
+*.bc
+*.a
+*.js
+dump

@@ -1,0 +1,12 @@
+-dce full
+-cp src
+-main App
+-D analyzer-optimize
+-D old-error-format
+
+--each
+-swf-lib libblip.swc
+-swf-header 600:400:30:000000
+--flash-strict
+-swf-version 10.3
+-swf bin/blip.swf
